@@ -1,0 +1,89 @@
+
+.myCarousel{
+    
+ /* border: 2px solid blue; */
+  z-index: 2;
+  position: absolute;
+  top: 38%;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch; */
+
+  
+    
+  
+}
+.Quotes{
+    /* border: 2px solid red; */
+    padding-left: 2%;
+    width: 97.2vw;
+    height: 40%;
+    word-wrap: normal;
+    
+    
+    
+}
+.carousel-item{
+    font-family: 'Orelega One', cursive;
+    font-size: 2.7rem;
+    text-align: left;
+    line-height: 2rem;
+    color: aliceblue;
+   
+    
+}
+.carousel-item p{
+    text-align: left;
+}
+.TitleImage{
+    padding: 0;
+}
+@media only screen and (max-width:420px) {
+    .carousel-item{
+    font-family: 'Orelega One', cursive;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    }
+    .myCarousel{
+        top: 42%;
+    }
+    .Quotes{
+        padding-right: 4%;
+    }
+    .btn{
+        padding: 2%;
+        display: block;
+    }
+    .buttons{
+        width: 50vw;
+       
+    }
+    
+}
+/* .btn{
+    position: absolute;
+    top: 60%;
+    z-index: 2;
+    left: 1.5%;
+    border-radius: 10px;
+    padding: 1% 1%;
+    font-family: 'Audiowide', cursive;
+    margin: 10px;
+    opacity: 0.99;
+} */
+.buttons{
+    /* border: 2px solid saddlebrown; */
+    margin: 10px;
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    left: 2%;
+    display: flex;
+    align-items:flex-start;
+}
+.btn{
+    margin: 5px;
+    border-radius: 12px;
+    font-family: 'Orelega One', cursive;;
+}
